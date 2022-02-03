@@ -1,0 +1,183 @@
+body{
+    font-family:'Montserrat', sans-serif;
+}
+
+header {
+    background: #CCCCCC;
+}
+.logo{
+    width: 110px;
+}
+.caixa{
+    position: relative;
+    width: 1098px;
+    margin: 0 auto;
+}
+.principal{
+    width: 95%;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 70px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold; 
+    font-size: 22px;
+    text-decoration: none;    
+}
+
+nav a:hover{
+    color: #c78c79 ;
+    text-decoration: underline;
+}
+ 
+
+.produtos {
+    width: 1200px;
+    margin: 0px 25%;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    padding: 30px 20px;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #c78c79;
+}
+
+.produtos li:active{
+    border-color: #088c19;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao{
+    font-size: 18px;
+    padding: 10px;
+}
+
+.produto-descricao-cabeloebarba{
+    font-size: 18px;
+    padding: 10px;
+}
+.produto-preco {
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px 0;
+    background: url("../imagens/bg.jpg");
+}
+
+.copyright{
+    color: #fff;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+main {
+  width: 1300px;
+}
+
+#main-contato{
+    width: 750px;
+    margin: 30px auto;
+}
+
+#teste-div{
+    border: double 2px transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, red, blue);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+form{
+    margin: 50px 140px; 
+    width: 100%;
+}
+
+div form label, div form legend{
+    display: block;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding:10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.botao-enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: rgb(236, 175, 62);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 20px;
+    transition: 1s all;
+}
+
+.botao-enviar:hover{
+    background: orange;
+    transform: scale(1.1);
+}
+
+table{
+    border: double 2px transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, red, blue);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    width: 500px;
+    margin: 20px 50%;
+}
+
+thead th{
+    font-weight: bold;
+    padding: 10px;
+}
+
+td {
+    border:1px solid #000;
+    text-align: center;
+    padding: 10px;    
+}
